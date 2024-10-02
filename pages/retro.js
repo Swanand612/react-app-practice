@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, IconButton, LoadingButton, Slider } from "@mui/material";
+import { Button, IconButton, Slider } from "@mui/material";
 
 export default function Retro() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,6 @@ export default function Retro() {
   // handle click events
   function handleChange(event, newValue) {
     setValue(newValue);
-    console.log(newValue);
   }
 
   return (
